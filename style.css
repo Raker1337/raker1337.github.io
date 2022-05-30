@@ -654,6 +654,8 @@ button.swiper-pagination-bullet {
     margin-left: 0;
     overflow: unset; }
     .body .swiper .swiper__block {
+      margin-right: 16px;
+      background-color: white;
       width: 240px;
       height: 72px;
       padding: 16px;
@@ -687,6 +689,8 @@ button.swiper-pagination-bullet {
   height: 220px !important; }
 
 .swiper__help {
+  margin: 8px;
+  background-color: white;
   width: 240px;
   height: 160px;
   padding: 16px;
@@ -700,8 +704,8 @@ button.swiper-pagination-bullet {
     text-align: left;
     margin-right: 60px; }
   .swiper__help .swiper__go {
-    margin-left: 184px;
-    margin-top: 104px;
+    margin-left: 174px;
+    margin-top: 74px;
     height: 40px;
     width: 40px; }
 
@@ -867,16 +871,17 @@ span {
 
 @media (min-width: 768px) and (max-width: 1150px) {
   .main__readmore {
-    display: flex !important; }
+    display: flex !important;
+    background-color: #dbdbdb !important; }
   body {
     width: 100%; }
     body .swiper-wrapper {
       background-color: white; }
     body .swiper__help {
-      margin-right: 0;
-      margin-left: 0; }
+      margin: 8px;
+      background-color: white; }
     body .body__block {
-      margin: 0 !important; }
+      margin: 8px !important; }
     body .popup__content {
       width: 440px; }
     body .popup__body {
@@ -969,6 +974,8 @@ span {
 @media (min-width: 1150px) and (max-width: 1440px) {
   body {
     width: 100%; }
+    body .header {
+      background-color: #dbdbdb; }
     body .popup__content {
       width: 440px; }
     body .popup__body {
@@ -1011,7 +1018,8 @@ span {
       flex-wrap: wrap; }
     body .main__readmore {
       display: flex;
-      justify-content: flex-start; }
+      justify-content: flex-start;
+      background-color: #dbdbdb !important; }
     body .header {
       width: 100%; }
       body .header .header__repair {
@@ -1103,6 +1111,8 @@ span {
 @media (min-width: 1440px) {
   body {
     width: 1120px; }
+    body .header {
+      background-color: #dbdbdb; }
     body .popup__content {
       width: 440px; }
     body .popup__body {
@@ -1145,7 +1155,8 @@ span {
       flex-wrap: wrap; }
     body .main__readmore {
       display: flex;
-      justify-content: flex-start; }
+      justify-content: flex-start;
+      background-color: #dbdbdb !important; }
     body .header {
       width: 1120px; }
       body .header .header__repair {
@@ -1298,7 +1309,7 @@ span {
   text-align: left;
   height: 40px;
   color: #7E7E82;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   border-radius: 6px;
   padding: 5px;
@@ -1319,7 +1330,7 @@ span {
   text-align: left;
   height: 40px;
   color: #7E7E82;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   border-radius: 6px;
   padding: 5px;
@@ -1357,7 +1368,7 @@ span {
   text-align: left;
   height: 40px;
   color: #7E7E82;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   border-radius: 6px;
   padding: 5px;
@@ -1421,7 +1432,7 @@ span {
   text-align: left;
   height: 40px;
   color: #7E7E82;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   border-radius: 6px;
   padding: 5px;
@@ -1436,7 +1447,7 @@ span {
   text-align: left;
   height: 40px;
   color: #7E7E82;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   border-radius: 6px;
   padding: 5px;
@@ -1451,7 +1462,7 @@ span {
   text-align: left;
   height: 40px;
   color: #7E7E82;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   border-radius: 6px;
   padding: 5px;
@@ -1466,7 +1477,7 @@ span {
   text-align: left;
   height: 40px;
   color: #7E7E82;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   border-radius: 6px;
   padding: 5px;
