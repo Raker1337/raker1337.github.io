@@ -643,7 +643,7 @@ button.swiper-pagination-bullet {
 
 .body {
   margin: 0px;
-  background-color: #dbdbdb;
+  background-color: #F8F8F8;
   width: 100%;
   height: 234px;
   font-family: "TT Lakes"; }
@@ -667,7 +667,7 @@ button.swiper-pagination-bullet {
         width: 40px; }
 
 .swiper__text--margin {
-  background: linear-gradient(to right, #dbdbdb, #ffffff);
+  background: linear-gradient(to right, #F8F8F8, #ffffff);
   margin: 16px 0;
   border-top: .1px solid aqua; }
 
@@ -872,7 +872,7 @@ span {
 @media (min-width: 768px) and (max-width: 1150px) {
   .main__readmore {
     display: flex !important;
-    background-color: #dbdbdb !important; }
+    background-color: #F8F8F8 !important; }
   body {
     width: 100%; }
     body .swiper-wrapper {
@@ -975,7 +975,7 @@ span {
   body {
     width: 100%; }
     body .header {
-      background-color: #dbdbdb; }
+      background-color: #F8F8F8; }
     body .popup__content {
       width: 440px; }
     body .popup__body {
@@ -1019,7 +1019,7 @@ span {
     body .main__readmore {
       display: flex;
       justify-content: flex-start;
-      background-color: #dbdbdb !important; }
+      background-color: #F8F8F8 !important; }
     body .header {
       width: 100%; }
       body .header .header__repair {
@@ -1112,7 +1112,7 @@ span {
   body {
     width: 1120px; }
     body .header {
-      background-color: #dbdbdb; }
+      background-color: #F8F8F8; }
     body .popup__content {
       width: 440px; }
     body .popup__body {
@@ -1156,7 +1156,7 @@ span {
     body .main__readmore {
       display: flex;
       justify-content: flex-start;
-      background-color: #dbdbdb !important; }
+      background-color: #F8F8F8 !important; }
     body .header {
       width: 1120px; }
       body .header .header__repair {
