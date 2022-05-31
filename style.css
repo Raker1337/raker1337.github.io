@@ -645,11 +645,9 @@ button.swiper-pagination-bullet {
   margin: 0px;
   background-color: #F8F8F8;
   width: 100%;
-  height: 234px;
   font-family: "TT Lakes";
   overflow: unset; }
   .body .swiper {
-    z-index: -1;
     width: 255px;
     height: 90px;
     margin-left: 0;
@@ -876,7 +874,15 @@ span {
 .column--white {
   background-color: white; }
 
+.column--border {
+  border-bottom: 1px solid #969696; }
+
 @media (max-width: 768px) {
+  .swiper__repair {
+    background-color: white;
+    margin-right: 16px;
+    height: 200px;
+    border-bottom: 10px solid #1B1C21; }
   .burger__wrapper {
     width: 100vw !important; }
   .footer--margin {
@@ -1132,7 +1138,8 @@ span {
 
 @media (min-width: 1440px) {
   body {
-    width: 1120px; }
+    width: 1120px;
+    height: unset; }
     body .header {
       background-color: #F8F8F8; }
     body .popup__content {
@@ -1275,7 +1282,7 @@ span {
     position: absolute;
     right: -30px; }
     body .burger__bg {
-      height: 0;
+      height: 100%;
       width: 0;
       visibility: visible;
       opacity: 100;
@@ -1284,7 +1291,7 @@ span {
       left: -330px;
       top: 0px; }
     body .burger__wrapper {
-      height: 1900px;
+      height: 100%;
       box-shadow: none; }
     body .footer--margin {
       margin-top: 148px; }
@@ -1569,13 +1576,23 @@ span {
   height: 48px;
   margin-bottom: 16px;
   border: 0px;
-  opacity: 60%; }
+  opacity: 60%;
+  border: 1px solid #888888;
+  border-radius: 10px; }
 
 .input--big {
   width: 288px;
   height: 118px;
   border: 0px;
-  opacity: 60%; }
+  opacity: 60%;
+  border: 1px solid #888888;
+  border-radius: 10px; }
+
+.show3 {
+  display: none; }
+
+.swiper--margin {
+  bottom: -10px !important; }
 
 .callback1 {
   margin-left: 152px;
@@ -1604,6 +1621,11 @@ span {
 .burger__wrapper:target {
   visibility: visible;
   opacity: 100; }
+
+.linef {
+  margin-left: 5px;
+  background-color: #494949;
+  width: 1040px; }
 
 .burger__area {
   position: absolute;
