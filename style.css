@@ -895,7 +895,9 @@ span {
   .popup__content {
     border-radius: 0 !important;
     width: 100% !important;
-    height: 100vh !important; } }
+    height: 100vh !important; }
+  .popup {
+    z-index: 996 !important; } }
 
 @media (min-width: 768px) and (max-width: 1150px) {
   .main__readmore {
