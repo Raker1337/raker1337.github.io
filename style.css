@@ -1183,7 +1183,7 @@ span {
     body .textbold--margin {
       width: 500px; }
     body .main__read {
-      width: 50%;
+      width: 70%;
       display: inline-flex;
       align-content: flex-start;
       flex-wrap: wrap; }
@@ -1283,6 +1283,8 @@ span {
     width: 85% !important;
     position: absolute;
     right: -110px; }
+    body span {
+      width: unset; }
     body .burger__bg {
       height: 100%;
       width: 0;
