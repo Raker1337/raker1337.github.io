@@ -646,7 +646,8 @@ button.swiper-pagination-bullet {
   background-color: #F8F8F8;
   width: 100%;
   font-family: "TT Lakes";
-  overflow: unset; }
+  overflow: unset;
+  overflow-x: hidden;}
   .body .swiper {
     width: 255px;
     height: 90px;
